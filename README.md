@@ -107,3 +107,4 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
 Enlace del proyecto: [https://github.com/usuario/nombre-del-proyecto](https://github.com/usuario/nombre-del-proyecto)
 
+PRUEBA_GIT_2026
