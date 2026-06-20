@@ -1,0 +1,60 @@
+COD OPCION,OPCION,DETALLE DE LA OPCION,OPCION SENSIBLE,ADMINISTRADOR,APROBADOR GENERAL,REVISORIA GLOBAL,AUDITORIA,SOPORTE_TI,PREP_FLUJOS_ADM,LANZADOR COMPRAS
+AB-100,Menú Administración,,,X,X,,,X,,
+AB-101,Consulta Usuarios,Consultar información de usuarios registrados,,X,,,,,,
+AB-102,Modificar Usuarios,Actualizar usuarios existentes,,X,,,,,,
+AB-103,Asignar Licencia,Asignar licencias de uso a usuarios,,X,,,,,,
+AB-104,Cambio Clave,Restablecer o cambiar contraseña,,X,,,,,,
+AB-105,Crear Festivos,Administrar calendario de días festivos,X,,,,,X,,
+AB-106,Liberar Operación,Autorizar operaciones retenidas,X,,X,,,X,,
+AB-107,Reporte Usuarios,Generar reporte de usuarios del sistema,,X,,,X,,,
+AB-200,Menú Compras,,,,,X,,,,X
+AB-201,Crear Solicitud Compra,Registrar una nueva solicitud de compra,,,,,,,,X
+AB-202,Modificar Solicitud Compra,Actualizar una solicitud existente,,,,,,,,X
+AB-203,Consultar Solicitud Compra,Consultar solicitudes registradas,,,,X,,,,X
+AB-204,Cancelar Solicitud Compra,Anular solicitud de compra,,,,,,,,X
+AB-205,Adjuntar Soportes Compra,Cargar documentos soporte,,,,,,,,X
+AB-206,Enviar a Aprobación,Remitir solicitud para aprobación,,,,,,,,X
+AB-207,Menú Órdenes Compra,,,,,X,,,,X
+AB-208,Crear Orden Compra,Generar orden de compra,,,,,,,,X
+AB-209,Modificar Orden Compra,Actualizar orden de compra,,,,,,,,X
+AB-210,Consultar Orden Compra,Consultar órdenes registradas,,,,X,,,,X
+AB-211,Anular Orden Compra,Cancelar orden emitida,,,,,,,,X
+AB-212,Imprimir Orden Compra,Generar documento de orden,,,,X,,,,X
+AB-300,Menú Aprobaciones,,,,X,,,,,
+AB-301,Aprobar Compra,Autorizar solicitud de compra,,,X,,,,X,
+AB-302,Rechazar Compra,Rechazar solicitud presentada,,,,,,,X,
+AB-303,Aprobar Monto Alto,Autorizar compras superiores al límite,X,,X,,,,,
+AB-304,Aprobar Excepción,Autorizar compras fuera de política,X,,X,,,,,
+AB-305,Aprobar Proveedor Nuevo,Validar nuevo proveedor,,,,,,,X,
+AB-400,Menú Proveedores,,,,,X,,,,
+AB-401,Crear Proveedor,Registrar proveedor,,,,,,,X,
+AB-402,Modificar Proveedor,Actualizar datos proveedor,,,,,,,X,
+AB-403,Consultar Proveedor,Consultar información proveedor,,,,X,,,X,
+AB-404,Bloquear Proveedor,Suspender proveedor,X,,,,,,X,
+AB-405,Activar Proveedor,Habilitar proveedor,,,,,,,X,
+AB-500,Menú Pagos,,,,X,X,,,,
+AB-501,Crear Solicitud Pago,Registrar solicitud de pago,,,,,,,,X
+AB-502,Autorizar Pago,Aprobar desembolso,,,X,,,,X,
+AB-503,Liberar Pago,Ejecutar pago aprobado,,,,,,,,X
+AB-504,Consultar Pagos,Consultar pagos realizados,,,,X,,,,X
+AB-505,Reversar Pago,Revertir transacción,,,X,,,,X,
+AB-600,Menú Operaciones,,,,X,X,,,X,
+AB-601,Autorizar Transacción,Autorizar transacción financiera,X,,X,,,,X,
+AB-602,Aprobar Transferencia,Aprobar movimiento de fondos,X,,X,,,,X,
+AB-603,Reversar Transacción,Revertir transacción ejecutada,,,X,,,,X,
+AB-604,Consultar Operaciones,Consultar operaciones realizadas,,,,X,,X,X,
+AB-700,Menú Reportes,,,,,X,X,X,X,
+AB-701,Reporte Compras,Generar reporte de compras,,,,X,X,X,X,
+AB-702,Reporte Órdenes,Generar reporte de órdenes,,,,X,X,X,X,
+AB-703,Reporte Proveedores,Generar reporte de proveedores,,,,X,X,X,X,
+AB-704,Reporte Pagos,Generar reporte de pagos,,,,X,X,X,X,
+AB-705,Reporte Aprobaciones,Generar reporte de aprobaciones,,,,X,X,X,X,
+AB-706,Reporte Operaciones,Generar reporte operativo,,,,X,X,X,X,
+AB-707,Reporte Excepciones,Consultar operaciones excepcionales,,,,X,X,X,X,
+AB-708,Exportar Reportes,Descargar información en archivo,,,,X,X,X,X,
+AB-800,Menú Auditoría,,,X,,,X,,,
+AB-801,Auditoría Compras,Revisar historial de compras,,X,,,X,,,
+AB-802,Auditoría Pagos,Revisar historial de pagos,,X,,,X,,,
+AB-803,Auditoría Aprobaciones,Revisar aprobaciones realizadas,,X,,,X,,,
+AB-804,Consulta Trazabilidad,Consultar trazabilidad completa,,X,,,X,,,
+AB-805,Consulta Históricos,Consultar movimientos históricos,,X,,,X,,,
