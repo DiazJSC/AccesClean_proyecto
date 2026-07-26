@@ -1,4 +1,4 @@
-# Proyecto de Análisis de Datos
+# Proyecto: AccesClean
 
 ## Descripción
 Este proyecto está diseñado para procesar, analizar y modelar datos mensuales recopilados desde noviembre de 2022 hasta marzo de 2024. El flujo de trabajo incluye la descarga de datos, consolidación, limpieza, análisis exploratorio de datos (EDA) y modelado predictivo.
@@ -32,14 +32,14 @@ El proyecto sigue un flujo de trabajo secuencial implementado en varios cuaderno
 
 Los datos están organizados de la siguiente manera:
 
-- **raw**: Datos crudos (tal cual se descargan), archivos de ejemplo en formato Excel
+- **raw**: Datos crudos descargados desde la fuente original
 - **landing**: Datos consolidados de todas las fuentes, sin más procesamiento
-- **trusted**: Datos limpios, normalizados, estandarizados, etc. listos para análisis
+- **trusted**: Datos limpios, normalizados, estandarizados, etc. listos para el análisis
 - **surface**: Datos organizados para compartir con usuarios
 
 ## Requisitos
 
-Para ejecutar este proyecto necesitarás:
+Para ejecutar este proyecto necesitarás importar las librerias que se encuentran adjuntas en el archivo `requirements.txt`, algunas de estas son:
 
 ```
 python>=3.12
@@ -101,8 +101,8 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Crea un Pull Request
 
-## Contacto
+## Autor
 
-[Tu nombre] - [tu.email@ejemplo.com]
+Juan Sebastian Diaz - juan-diazc@unilibre.edu.co
 
-Enlace del proyecto: [https://github.com/usuario/nombre-del-proyecto](https://github.com/usuario/nombre-del-proyecto)
+Enlace del proyecto: [https://github.com/DiazJSC/AccesClean_proyecto]
