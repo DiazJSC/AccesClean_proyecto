@@ -1,7 +1,8 @@
-# Proyecto: AccesClean
+# AccesClean — Pronóstico de Demanda de Solicitudes de Acceso
 
 ## Descripción
-Este proyecto está diseñado para procesar, analizar y modelar datos mensuales recopilados desde noviembre de 2022 hasta marzo de 2024. El flujo de trabajo incluye la descarga de datos, consolidación, limpieza, análisis exploratorio de datos (EDA) y modelado predictivo.
+
+Proyecto de ciencia de datos que analiza el histórico de solicitudes de acceso a aplicativos de una entidad del sector financiero y construye un modelo de series de tiempo para **anticipar la demanda futura**, junto con un tablero de control que apoya la toma de decisiones del equipo que administra dichas solicitudes.
 
 ## Estructura del Proyecto
 
@@ -27,6 +28,7 @@ El proyecto sigue un flujo de trabajo secuencial implementado en varios cuaderno
 3. **Limpieza de datos** (`02_limpieza.ipynb`): Preprocesamiento para manejar valores faltantes, outliers y transformaciones.
 4. **Análisis Exploratorio de Datos** (`03_EDA.ipynb`): Visualizaciones y estadísticas descriptivas.
 5. **Modelado** (`04_modelos.ipynb`): Desarrollo e implementación de modelos predictivos.
+6. **Implementación** (`app.py`): Tablero interactivo para anticipar la demanda y realizar seguimiento.
 
 ## Datos
 
@@ -49,6 +51,8 @@ matplotlib
 seaborn
 scikit-learn
 jupyter
+prophet
+streamlit
 ```
 
 ## Instalación
@@ -57,7 +61,7 @@ jupyter
 
     Esto crea una copia en tu cuenta de GitHub: 
 
-    `https://github.com/dfmarin/proyecto_diplomado`
+    `https://github.com/DiazJSC/AccesClean_proyecto`
 
 2. Clona el repositorio de tu proyecto (el **fork** que hicieron):
 
@@ -82,10 +86,6 @@ jupyter notebook src/00_descargas.ipynb
 ```
 
 Continúa con los siguientes cuadernos siguiendo el flujo de trabajo numerado.
-
-## API
-
-La API proporciona acceso a las predicciones del modelo. Consulta la documentación en el directorio `api` para más detalles sobre los endpoints disponibles y su uso.
 
 ## Aplicación Web
 
